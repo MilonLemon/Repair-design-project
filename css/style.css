@@ -210,13 +210,29 @@
         display: none;
     }
 
+    .section-title {
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .online-control-title {
+        position: absolute;
+        width: 224px;
+        top: 727px;
+        left: 50%;
+        margin-left: -112px;  
+        color: #FFFFFF;   
+    }
+
     .online-control-logo {
         position: absolute;
-        top: 727px;
-        width: 224px;
-        height: 73.79px;
+        top: 772.79px;
+        width: 114px;
+        height: 28px;
         left: 50%;
-        margin-left: -112px;
+        margin-left: -57px;
     }
 
     .online-control-video {
@@ -235,6 +251,9 @@
         height: 37px;
         left: 50%;
         margin-left: -18.5px;
+        border: none;
+        background-color: transparent;
+        background-image: url("../img/Group 8.7.png");
     }
 
     .projects_completed {
@@ -256,6 +275,27 @@
         left: 18px;
         width: 340px;
         height: 241.55px;
+    }
+
+    .button-next {            
+        width: 36px;
+        height: 36px;  
+        border: none;
+        background-color: transparent;
+        background-image: url("../img/Group 8.8.svg");
+    }
+
+    .projects_completed_image_button-left {
+        left: 32px;
+        position: absolute;
+        top: 349px;
+    }
+
+    .projects_completed_image_button-right {
+        left: 309px;
+        top: 349px;
+        position: absolute;
+        -webkit-transform: rotate(180deg);
     }
 
     .projects_completed_bar {
@@ -475,13 +515,22 @@
         z-index: -1;
     }
 
-    .measurement_logo {
+    .measurement_title {
         position: absolute;
-        width: 257px;
-        height: 71px;
+        width: 224px;
         top: 83px;
         left: 50%;
-        margin-left: -128.5px;
+        margin-left: -112px;  
+        color: #181818;   
+    }
+
+    .measurement_logo {
+        position: absolute;
+        width: 114px;
+        height: 28px;
+        top: 126px;
+        left: 50%;
+        margin-left: -57px;
     }
 
     .measurement_types-of-repair {
@@ -613,6 +662,19 @@
         left: 0;
     }
 
+    .realize-fantasies_image_button-left {
+        left: 14px;
+        position: absolute;
+        top: 193px;
+    }
+
+    .realize-fantasies_image_button-right {
+        left: 291px;
+        position: absolute;
+        top: 193px;
+        -webkit-transform: rotate(180deg);
+    }
+
     .design-project_sizes_images_flex {
         width: 340px;
         height: 1388.15px;   
@@ -657,18 +719,24 @@
         height: 1964px;
         z-index: -2;
     }
-    
-    .design-project_logo-desktop {
-        display: none;
+
+
+    .design-project_logo {
+        position: absolute;
+        width: 114px;
+        height: 28px;
+        top: 214.89px;
+        left: 50%;
+        margin-left: -57px;
     }
 
-    .design-project_logo-mobile {
+    .design-project_title {
         position: absolute;
-        width: 257px;
-        height: 69.89px;
+        width: 224px;
         top: 173px;
         left: 50%;
-        margin-left: -128.5px;
+        margin-left: -112px;  
+        color: #FFFFFF;   
     }
     
     .design-project_text-desktop {
@@ -1180,13 +1248,29 @@
         height: 100%;
     }
 
-    .online-control-logo {
+    .section-title {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .online-control-title {
         position: absolute;
         top: 750px;
         width: 196px;
-        height: 66.79px;
         left: 50%;
-        margin-left: -97.5px;
+        margin-left: -97.5px;  
+        color: #FFFFFF;   
+    }
+
+    .online-control-logo {
+        position: absolute;
+        top: 788.79px;
+        width: 114px;
+        height: 28px;
+        left: 50%;
+        margin-left: -57px;
     }
 
     .online-control-video {
@@ -1205,6 +1289,9 @@
         height: 85px;
         left: 50%;
         margin-left: -42.5px;
+        border: none;
+        background-color: transparent;
+        background-image: url("../img/Group 8.png");
     }
 
     .home_title {
@@ -1256,6 +1343,39 @@
         left: 0;
         width: 205.7px;
         height: 13.3px;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .projects_completed_bar_pointer-right {
+        -webkit-transform: rotate(180deg);
+    }
+
+    .button_pointer {
+        width: 41.46px;
+        height: 13.28px;  
+        border: none;
+        background-color: transparent;
+        background-image: url("../img/pointer.svg");
+    }
+
+    #projects_completed_bar_circle {
+        color: #5A5A5A;
+        line-height: 13.28px;
+        width: 63.78px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    #projects_completed_bar_circle li{
+        width: 9.57px;
+        height: 9.57px;
+        list-style-type: none;
+    }
+
+    #projects_completed_bar_circle>:nth-child(1) {
+        color: #FFFFFF;
     }
 
     .projects_completed_variants {
@@ -1267,7 +1387,7 @@
         white-space: nowrap;
     }
 
-    .projects_completed_variants>:nth-child(1) {
+    .projects_completed_variants_text:hover {
         color: #E3B873; 
         text-decoration-line: underline;
     }
@@ -1498,13 +1618,22 @@
         height: 2702.86px; 
     }
 
-    .measurement_logo {
+    .measurement_title {
         position: absolute;
         width: 257px;
-        height: 67px;
         top: 0;
         left: 50%;
-        margin-left: -128.5px;
+        margin-left: -128.5px;  
+        color: #181818;   
+    }
+
+    .measurement_logo {
+        position: absolute;
+        width: 114px;
+        height: 28px;
+        top: 39px;
+        left: 50%;
+        margin-left: -57px;
     }
 
     .measurement_types-of-repair {
@@ -1623,6 +1752,7 @@
         height: 73px;
         top: 653.44px;
         left: 865.94px;
+        object-fit: cover;
     }
     
     .request-for-measurement_pig-text{
@@ -1702,8 +1832,7 @@
         top: 1685px;
         width: 100%;
         height: 1017.86px;
-    } 
-    
+    }    
     
     .realize-fantasies_background {
         position: absolute;
@@ -1776,7 +1905,7 @@
         display: none;
     }
 
-    .realize-fantasies_types>:nth-child(1) {
+    .realize-fantasies_types>:nth-child(n):hover {
         text-decoration: underline;
         color: #E3B873;
     }
@@ -1796,18 +1925,23 @@
         width: 100%;
         height: 2519.96px;
     }
-    
-    .design-project_logo-desktop {
+
+    .design-project_title {
         position: absolute;
         width: 257px;
-        height: 66.89px;
         top: 0;
         left: 50%;
-        margin-left: -128.5px;
+        margin-left: -128.5px;  
+        color: #181818;   
     }
-    
-    .design-project_logo-mobile {
-        display: none;
+
+    .design-project_logo {
+        position: absolute;
+        width: 114px;
+        height: 28px;
+        top: 39px;
+        left: 50%;
+        margin-left: -57px;
     }
 
     .design-project_text-desktop{
@@ -1822,6 +1956,10 @@
         text-align: center;
     
         color: #363636;
+    }
+
+    .design-project_text-mobile {
+        display: none;
     }
 
     .design-project_sizes_text_regular_mobile {
@@ -1848,6 +1986,10 @@
         margin-left: 31px;
         margin-right: 133px;
         white-space: nowrap;
+    }
+
+    .button-next {
+        display: none;
     }
 
     .design-project_sizes_text_flex {
@@ -1970,12 +2112,33 @@
         color: #FFFFFF;
     }
     
-    .working-process-bar {
+    .working-process_bar {
         position: absolute;
         top: 576px;
         left: 0;
         width: 287px;
         height: 13.28px; 
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #working-process_bar_circle {
+        color: #5A5A5A;
+        line-height: 13.28px;
+        width: 145.09px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    #working-process_bar_circle li{
+        width: 9.57px;
+        height: 9.57px;
+        list-style-type: none;
+    }
+
+    #working-process_bar_circle>:nth-child(1) {
+        color: #FFFFFF;
     }
     
     .working-process_image {
